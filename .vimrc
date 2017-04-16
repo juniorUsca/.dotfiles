@@ -252,8 +252,11 @@ let NERDTreeWinSize=20
 "nnoremap <leader><C-b> :center 80<cr>hhv0lr*A<space><esc>40A*<esc>d79<bar>Ypp80hlv80lr*kk.hi/<esc>lxjjA/<esc>
 "nnoremap <leader><C-e> :center 80<cr>hhv0lr*A<space><esc>40A*<esc>d79<bar>80hi/<esc>lxA/<esc>
 "nnoremap <leader><C-B> :center 80<cr>0vr=A<esc>40A<space><esc>a=<esc>d79<bar>Ypp<esc>0v80lr=kk.xxi/*<esc>jj$xxa*/<esc>
-nnoremap <leader><C-B> _i=<esc>:norm :echo((80+col('.'))/2)<CR>i<space><CR>
-"<cr>0vr=A<esc>40A<space><esc>a=<esc>d79<bar>Ypp<esc>0v80lr=kk.xxi/*<esc>jj$xxa*/<esc>
+nnoremap <leader><S-b> _i=<esc>l12i<space><esc>12A<space><esc>a=<esc>Ypp_v$r=$xxa*/<esc>kk_v$r=_xxi/*<esc>j$h12h
+"nnoremap <leader><S-e> _i/*=<esc>l12i<space><esc>12A<space><esc>a=<esc>Ypp_v$r=$xxa*/<esc>kk_v$r=_xxi/*<esc>j$h12h
+nnoremap <leader><S-e> _i/*<esc>5a=<esc>2a<space><esc>aEnd<space>of<space><esc>$2a<space><esc>6a=<esc>a*/<esc>10h
+nnoremap <leader><C-b> Ypppp<esc>kkkk_i=<esc>l12i<space><esc>12A<space><esc>a=<esc>Ypp_v$r=$xxa*/<esc>kk_v$r=_xxi/*<esc>jjjjjj_iEnd<space>of<space><esc>_i/*<esc>5a=<esc>2a<space><esc>$2a<space><esc>6a=<esc>a*/<esc>k0Dkk0Dj_Da
+" :echo((80+col('.'))/2)<CR>
 
 " NERDCOMMENTS
 " Add spaces after comment delimiters by default
